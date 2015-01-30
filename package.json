@@ -1,0 +1,42 @@
+{
+	"name": "co-next",
+	"version": "1.0.0",
+	"description": "Use generators for request handlers and middleware. Calls next only if there was an error. Useful for Express routes.",
+	"keywords": [
+		"co",
+		"express",
+		"middleware"
+	],
+	"homepage": "https://github.com/moll/js-co-next",
+	"bugs": "https://github.com/moll/js-co-next/issues",
+
+	"author": {
+		"name": "Andri Möll",
+		"email": "andri@dot.ee",
+		"url": "http://themoll.com"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/moll/js-co-next.git"
+	},
+
+	"licenses": [{
+		"type": "LAGPL",
+		"url": "https://github.com/moll/js-co-next/blob/master/LICENSE"
+	}],
+
+	"main": "index.js",
+	"scripts": {"test": "make test"},
+
+	"dependencies": {
+		"co": ">= 4.0.0 < 5"
+	},
+
+	"devDependencies": {
+		"mocha": ">= 2.1.0 < 3",
+		"co-mocha": ">= 1.1.0 < 2",
+		"must": ">= 0.12.0 < 0.13",
+		"sinon": ">= 1.12.2 < 2"
+	}
+}
