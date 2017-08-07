@@ -1,13 +1,13 @@
 CoNext.js
 =========
 [![NPM version][npm-badge]](http://badge.fury.io/js/co-next)
-[npm-badge]: https://badge.fury.io/js/co-next.png
 
 **CoNext.js** is a small function for JavaScript to **wrap a generator
 function** with [Co][co] for use as **request handlers** and **middlewares**.
 Calls the last argument (usually called `next`) if there was an error, but not
 if the generator finishes successfully. Useful with [Express][express] routes.
 
+[npm-badge]: https://badge.fury.io/js/co-next.png
 [co]: https://github.com/visionmedia/co
 [express]: http://expressjs.com
 
